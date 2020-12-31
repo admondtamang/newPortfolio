@@ -2,10 +2,11 @@ import React from "react";
 import "./skills.css";
 import SkillSet from "./SkillSet";
 import "boxicons";
+import skill from "../../assets/skills.png";
 export default function Skills() {
     return (
         <div id="Skills">
-            <h1 className="heading">Skills</h1>
+            <h1 className="heading">Skill Set</h1>
             <div className="skills">
                 <div className="skillSet">
                     <h3>Profesional Skills</h3>
@@ -15,7 +16,7 @@ export default function Skills() {
                     </p>
                     <SkillSet
                         name="html and css"
-                        percentage="80%"
+                        percentage="90%"
                         icon={<box-icon type="logo" name="html5" />}
                     />
                     <SkillSet
@@ -40,10 +41,7 @@ export default function Skills() {
                     />
                 </div>
                 <div className="skills__image">
-                    <img
-                        src="https://d3b8hk1o42ev08.cloudfront.net/wp-content/uploads/2018/09/Project-Management-752x440.jpg"
-                        alt="skillset"
-                    />
+                    <img src={skill} alt="skillset" />
                 </div>
             </div>
         </div>

@@ -16,6 +16,7 @@ body {
     margin-top: 100px;
     font-size: larger;
     color: #5c18e4;
+    position: relative;
 }
 .heading::after {
     position: absolute;
@@ -25,6 +26,6 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    top: 2rem;
+    top: 7rem;
     background-color: purple;
 }
