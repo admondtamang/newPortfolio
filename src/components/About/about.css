@@ -1,39 +1,19 @@
-#About {
-  height: 100vh;
-}
-#About > h2 {
-  text-align: center;
-  padding: 80px;
-  font-size: larger;
-  color: #5c18e4;
-}
-#About > h2::after {
-  position: absolute;
-  content: "";
-  width: 64px;
-  height: 0.18rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 2rem;
-  background-color: purple;
-}
 .about {
-  display: flex;
-  justify-content: center;
-  gap: 5em;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
 }
 .about img {
-  flex: 0.2;
-  border-radius: 0.5rem;
-  justify-content: flex-end;
+    flex: 0.2;
+    border-radius: 0.5rem;
+    justify-content: flex-end;
 }
 .about__detail {
-  flex: 0.3;
+    flex: 0.3;
 }
 @media screen and (min-width: 768px) {
-  .about img {
-    width: 300px;
-  }
+    .about img {
+        width: 300px;
+    }
 }

@@ -1,10 +1,9 @@
 import React from "react";
-import "./experience.css";
+
 export default function Experience() {
-  return (
-    <div id="Experience">
-      <h1>Experience</h1>
-      <div className="experience"></div>
-    </div>
-  );
+    return (
+        <div id="experience">
+            <h3 className="heading">Experience</h3>
+        </div>
+    );
 }
